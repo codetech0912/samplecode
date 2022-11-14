@@ -8,8 +8,8 @@ app.get('/', function(request, response) {
   response.send('Hello World!')
 })
 
-app.get('/', function(request, response) {
-  response.send('Hello World!')
+app.get('/ad', function(request, response) {
+  response.send('Hello World')
 })
 
 app.listen(app.get('port'), function() {
